@@ -120,5 +120,5 @@ Within OneLogin > Apps > AWS > Provisioning > [Entitlements](https://tableau.one
 Within OneLogin create the new rule by mapping the 3 accounts under [Rules](https://tableau.onelogin.com/apps/596729/edit/#mappings). Then click New Rule
 - Conditions will contain the AD account its mapping to beginning with 1L.
 
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
+![Alt text](https://github.com/Cemito/aws/blob/master/1lmembers.png)
 >Verification Checks: Check the AWS Multitab, check GitLab, Office 365 Admin and the CloudCheckr page. 
