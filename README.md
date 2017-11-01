@@ -17,14 +17,14 @@ $ pip2 install aws-acct-mgr --upgrade
 ### Create the Distribution Lists in Office 365
 Log into [Office 365 Admin](https://portal.office.com/adminportal/home#/groups) - Create an In cloud Distribution List. Groups > Groups > Add a Group > Type: Distribution List
 
-- aws-tableau-<group-name>@tableau.com
+- aws-tableau-**<group-name>**@tableau.com
 
 	Example:
 	Group Name: AWS Tableau Product Internationalization
 	Email: aws-tableau-sharing-insights@tableau.com
 
 ### Create AD Security Groups
-Within AD under TSI Groups > OneLogin > AWS > Create three Security - Group Global Accounts. 
+Within AD under TSI Groups > OneLogin > AWS > Create three **Security - Group Global** Accounts. 
 
 - _Account_Admins
 - _Account_Read_Only
@@ -112,10 +112,10 @@ $ git push -u origin master
 ### OneLogin Mapings
 
 Within OneLogin add arn line under List of SAML Identity Providers
-- a. *Before adding the new line copy the whole list for backup*
-- b. OneLogin > Apps > AWS > [Configurations](https://tableau.onelogin.com/apps/596729/edit/#configuration) and add the new arm: arn:aws:iam::637144570937:saml-provider/OneLogin and make sure you add a comma after the one you add and the last one has no comma. 
-- c. Hit SAVE – NOT ENABLE!
-- d. More Actions > Reapply provision mappings
+- 1. **Before adding the new line copy the whole list for backup**
+- 2. OneLogin > Apps > AWS > [Configurations](https://tableau.onelogin.com/apps/596729/edit/#configuration) and add the new arm: arn:aws:iam::**637144570937**:saml-provider/OneLogin and make sure you add a comma after the one you add and the last one has no comma. 
+- 3. Hit **SAVE** – NOT ENABLE!
+- 4. More Actions > Reapply provision mappings
 
 Within OneLogin > Apps > AWS > Provisioning > [Entitlements](https://tableau.onelogin.com/apps/596729/edit/#provisioning) > Hit Refresh 5 times.
 
@@ -123,4 +123,6 @@ Within OneLogin create the new rule by mapping the 3 accounts under [Rules](http
 - Conditions will contain the AD account its mapping to beginning with 1L.
 
 ![Alt text](https://github.com/Cemito/aws/blob/master/1lmembers.png)
->Verification Checks: Check the AWS Multitab, check GitLab, Office 365 Admin and the CloudCheckr page. 
+
+##Verification Checks 
+Check the AWS Multitab, check GitLab, Office 365 Admin and the CloudCheckr page. 
