@@ -30,6 +30,8 @@ Within AD under TSI Groups > OneLogin > AWS > Create three Security - Group Glo
 - _Account_Read_Only
 - _Account_Users
 
+![Alt text](https://github.com/Cemito/aws/blob/master/adaccounts.png)
+
 Go back into [Office 365 Admin](https://portal.office.com/adminportal/home#/groups) and add IT Cloud and The Team's DL as members to the DL.
 
 ### Create AWS Account
