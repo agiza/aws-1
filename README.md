@@ -124,5 +124,5 @@ Within OneLogin create the new rule by mapping the 3 accounts under [Rules](http
 
 ![Alt text](https://github.com/Cemito/aws/blob/master/1lmembers.png)
 
-##Verification Checks 
+## Verification Checks 
 Check the AWS Multitab, check GitLab, Office 365 Admin and the CloudCheckr page. 
