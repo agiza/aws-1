@@ -5,9 +5,9 @@
 This guide will show you how to setup the required software on your Mac before you are ready to create accounts in AWS using Terraform templates.
 
 ## Install Xcode
-The Xcode app needs to be installed for Brew to be installed. 
+The Xcode app needs to be installed for Brew to be installed. First instsall this from either the AppStore or from the command line.
 ```sh
-xcode-select --install
+$ xcode-select --install
 ```
 
 ## Install Homebrew
