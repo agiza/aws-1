@@ -25,7 +25,10 @@ Run the following command to install Terraform and Python.
 ```sh
 $ brew install python terraform
 ```
->Terraform is a tool for building, changing and versioning infrastructure safely and efficiently. Terraform builds Infrastructure as code and using template files to automate the process. Terrform is similar to AWS CloudFormation however Terraform supports AWS, Google Cloud Plaftorm, Chef, Docker. Terraform's file format is .tf.  We use Terraform to build, VPCs, Subnets, NACLs. Terraform can for example be used to build EC2 instances automatically.
+>Terraform is a tool for building, changing and versioning infrastructure safely and efficiently. Terraform builds Infrastructure as code and using template files to automate the process.   
+>Terrform is similar to AWS CloudFormation however Terraform supports AWS, Google Cloud Plaftorm, Chef, Docker.   
+>Terraform's file format is .tf.     
+>We use Terraform to build, VPCs, Subnets, NACLs. Terraform can for example be used to build EC2 instances automatically.
 
 ## Point pip to Artifactory
 
