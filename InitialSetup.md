@@ -23,8 +23,9 @@ $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/inst
 Run the following command to install Terraform and Python.
 
 ```sh
-$ python terraform
+$ brew install python terraform
 ```
+>Terraform is a tool for building, changing and versioning infrastructure safely and efficiently. Terraform builds Infrastructure as code and using template files to automate the process. Terrform is similar to AWS CloudFormation however Terraform supports AWS, Google Cloud Plaftorm, Chef, Docker. Terraform's file format is .tf.  We use Terraform to build, VPCs, Subnets, NACLs. Terraform can for example be used to build EC2 instances automatically.
 
 ## Point pip to Artifactory
 
@@ -62,8 +63,14 @@ $ pip2 install aws-saml
 ```
 >This script allows Tableau AWS Users to authenticate our OneLogin Service into there provisioned account Tableau IT Account.
 
+```sh
+aws-shell -p saml
+```
+>This will generate and add keypairs in the AWS configuration file. 
+
 # Useful Links
 
 | Plugin | README |
 | ------ | ------ |
 | AWS Config file | [http://docs.aws.amazon.com/cli/latest/userguide/cli-config-files.html] [PlDb] |
+| What is Terraform? | [https://www.terraform.io/intro/index.html}] |
