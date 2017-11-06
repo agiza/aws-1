@@ -90,6 +90,8 @@ $ cat ~/.aws/credentials
 
 ## Install AWS Shell
 
+[aws-shell](https://aws.amazon.com/cli/) is a command-line shell program that provides convenience and productivity features to help both new and advanced users of the AWS Command Line Interface.
+
 ```sh
 $ pip2 install aws-shell
 ```
@@ -124,7 +126,9 @@ $ aws_acct_mgr auth login
 
 # Useful Links
 
-| Plugin | README |
+| Link | README |
 | ------ | ------ |
-| AWS Config file | [http://docs.aws.amazon.com/cli/latest/userguide/cli-config-files.html] [PlDb] |
-| What is Terraform? | [https://www.terraform.io/intro/index.html}] |
+| AWS Config file | http://docs.aws.amazon.com/cli/latest/userguide/cli-config-files.html |
+| AWS CLI | https://aws.amazon.com/cli
+| What is Terraform? | https://www.terraform.io/intro/index.html |
+| Account Manager by Zack | https://gitlab.tableausoftware.com/AWS_Cloud/account_manager |
