@@ -58,7 +58,7 @@ $ touch .aws/credentials
 >The CLI stores credentials specified with the ```aws configure``` in a local file named ```credentials``` in the folder named .aws in your local home directory.   
 
 ## Create the folder for your Terraform templates 
-This folder will contain all the terraform templates which you will create locally and then eventually pushed to GitLab. This directory can be called anything you like and store in any location.  Below is an example to create a 2 folders.
+This folder will contain all the terraform templates which you will create locally and then eventually pushed to GitLab. This directory can be called anything you like and store in any location.  Below is an example to create 2 folders.
 
 ```sh
 $ mkdir -p Code/aws
