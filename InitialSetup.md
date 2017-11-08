@@ -12,7 +12,7 @@ $ xcode-select --install
 
 ## Install Homebrew
 
-Homebrew is the package manager for macOS which installs packages you need that Apple didn't install :)
+[Homebrew](https://brew.sh) is the package manager for macOS which installs packages you need that Apple didn't install :)
 
 ```sh
 $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -111,8 +111,10 @@ $ aws-shell
 Setup
 
 ```sh
+$ git clone git@gitlab.tableausoftware.com:AWS_Cloud/account_manager.git
+$ cd account_manager
 $ pip install -r requirements.txt
-$ pip install -e .
+$ pip install -e . 
 ```
 
 ### Getting Master Billing Credentials
@@ -131,4 +133,4 @@ $ aws_acct_mgr auth login
 | AWS Config file | http://docs.aws.amazon.com/cli/latest/userguide/cli-config-files.html |
 | AWS CLI | https://aws.amazon.com/cli
 | What is Terraform? | https://www.terraform.io/intro/index.html |
-| Account Manager by Zack | https://gitlab.tableausoftware.com/AWS_Cloud/account_manager |
+| Account Manager by Zack | https://gitlab.tableausoftware.com/AWS_Cloud/account_manager | Homebrew | https://brew.sh |
